@@ -1,12 +1,12 @@
 <?php
 
-$apiUrl = "https://greenacres-5lyl.onrender.com";
+$apiUrl = "https://vizzit.onrender.com/run";
 
 $data = [
-    "source_url" => "https://greenacres-5lyl.onrender.com",
+    "source_url" => "https://manda.propertybase.com/api/v2/feed/00DWx000007hlhBMAQ/XML2U/a0hSb000005y8ELIAY/full",
     "ftp_host" => "ftp.vizzit.com",
-    "ftp_username" => "inmoenter",
-    "ftp_password" => "2chfjtag",
+    "ftp_username" => "property_base",
+    "ftp_password" => "AS8KnC5i",
     "ftp_target_path" => "33079a.zip"
 ];
 
