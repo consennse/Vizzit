@@ -41,7 +41,7 @@ def run_pipeline(portal):
     log.info("Loading Excel...")
     start = time.time()
     rules = pd.read_excel(RULE_FILE, header=9)
-    log.info("Excel load time:", time.time() - start)
+    log.info(f"Excel load time: {time.time() - start}")
 
     FIELDS = []
 
